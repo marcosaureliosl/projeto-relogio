@@ -3,10 +3,10 @@ const minutos = document.getElementById('minutos')
 const sugundos = document.getElementById('segundos')
 
 const relogio = setInterval(function time() {
-    let datetoday = new Date ();
-    let  hr = datetoday.getHours();
-    let min = datetoday.getMinutes();
-    let s = datetoday.getSeconds();
+    let dateToday = new Date ();
+    let  hr = dateToday.getHours();
+    let min = dateToday.getMinutes();
+    let s = dateToday.getSeconds();
 
     if(hr < 10) hr = '0' + hr;
 
