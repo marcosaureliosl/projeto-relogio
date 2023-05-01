@@ -18,5 +18,4 @@ const relogio = setInterval(function time() {
     minutos.textContent = min;
     sugundos.textContent=s;
 
-
 })
